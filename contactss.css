@@ -1,0 +1,191 @@
+a:link {
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+	a:hover {
+		background-color:#2699FB;
+		color:FFFFFF;
+		text-decoration:none ;
+		font-weight:normal;
+		}
+body {
+	background-color:#F5F5F5;
+	width:50%;
+	height:100%;
+	border: 2px solid #444444; 
+	padding:0;
+	margin:auto;
+	}
+h1 {
+	background-image:url(companylogoBG.jpg); max-width: 100%; height: auto; background-size: 100%; 
+	margin:auto;
+	width: 100%;
+	height: 20%;
+	font-size:3.429em;
+	text-transform: uppercase;
+	text-align: center;
+	align-content: center;
+	vertical-align:middle;color:#FFFFFF;
+	}
+	label{margin:0 40px 0 0; font-size:26px; line-height:70px; display:none; width:26px; background-color:#AAAAAA;border: 1px solid #FFFFFF;}
+ #toggle {display:none;background-color:#AAAAAA;}
+h2 {
+	color:#FFFFFF;font-family:Arial, Times New Roman, serif;
+	font-size:35pt;
+	text-align:center;
+	background-color:#2699FB;
+	padding:0;
+	border:0;
+	margin:auto;
+	height:8%;
+	}
+	h3 {color:#AAAAAA; text-align: justify; background-color:##F5F5F5;padding:0;border:0; margin:auto;}
+.header a{
+	color:#FFFFFF;
+	font-family: Berlin Sans FB, Times New Roman, serif;
+	font-size:56pt;
+	text-decoration:none;
+	position:relative:50%;
+	}
+.nav-bar { 
+text-align:center; 
+background-color:#AAAAAA;
+padding:0;border-width:0,5;
+border-style: solid;
+ border-color:#FFFFFF;
+ margin:auto;
+ height:3,5%;
+ }
+.nav-bar a{ 
+color:#FFFFFF;
+font-family:Arial, Times New Roman, serif;
+font-size:15pt;
+ text-align:center; margin:20px;
+ }
+footer {
+	font-family:Arial, Times New Roman, serif;
+color:#FFFFFF;
+text-align:center;
+background-color:#000000;
+border: 2px solid #444444; 
+	padding:0;
+	margin:auto;
+ }
+ .fieldset {margin:0;border:0; padding:0;}
+.fields{
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+	border:0;
+}
+
+input[type=text], select, textarea {
+  font-size: 1em;
+  width: 100%; 
+  padding: 12px; 
+  margin-top: 11px; 
+  margin-bottom: 11px; 
+  resize: vertical;
+  border:0;
+}
+input[type=email], select, textarea{
+    font-size: 1em;
+    width: 100%; 
+  padding: 12px; 
+  margin-top: 11px; 
+  margin-bottom: 11px; 
+  resize: vertical;
+  border:0;
+}
+input[type=submit] {
+  background-color: #2898FA;
+  color: white;
+  font-size: 1.5em;
+  width: 95%;
+  padding: 10px 15px;
+  border: 0;
+  margin: 13px;
+  cursor: pointer;
+}
+.MyVideo {
+	position: fixed; 
+ right: 0;
+ bottom: 0;
+ z-index: -2000;
+ height:100%;
+ max-width:100%;
+ display:none;
+ }
+/* try to fit the design*/
+/* pay attention to the responsiveness */
+@media (max-width:959px)
+{
+	h1 { width:100%; height: 15%; text-transform: uppercase;font-size:2.429em;color:#FFFFFF;}
+	.nav-bar{width:100%; height:5%;}
+	h2{ display:none;}
+	h3{display:none;}
+	.MyVideo{display:none;}
+	footer{width:100%; height:5%;}
+	input[type=text], select, textarea {
+  font-size: 1em;
+  width: 100%; 
+  padding: 9px; 
+  margin-top: 8.25px; 
+  margin-bottom: 8.25px; 
+  resize: vertical;
+  border:0;
+}
+input[type=email], select, textarea{
+    font-size: 1em;
+    width: 100%; 
+  padding: 9px; 
+  margin-top: 8.25px; 
+  margin-bottom: 8.25px; 
+  resize: vertical;
+  border:0;
+}
+input[type=submit] {
+  background-color: #2898FA;
+  color: white;
+  font-size: 1.5em;
+  width: 95%;
+  padding: 7.5px 11.25px;
+  border: 0;
+  margin: 9.75px;
+  cursor: pointer;
+  position: relative; left:0%;
+  body{width:100%;height:100%;}
+}
+}
+@media (max-width:359px)
+{
+	h1{width:100%; height:20%;font-size:1.429em;text-transform: uppercase;color:#FFFFFF;}
+	h2{width:100%; height:10%;}
+	.menu{text-align: center; width:100%; background-color:#AAAAAA;}
+	.menu a {display:block; border-bottom: 1px solid #EAEAEB; margin:0;}
+	#toggle.checked + .menu {display:block;background-color:#AAAAAA;}
+	.MyVideo{display:none;}
+	footer{width:100%; height:5%;}
+	body{width:100%;height:100%;}
+	input[type=email], select, textarea{
+    font-size: 1em;
+    width: 100%; 
+  padding: 9px; 
+  margin-top: 8.25px; 
+  margin-bottom: 8.25px; 
+  resize: vertical;
+  border:0;
+}
+input[type=submit] {
+  background-color: #2898FA;
+  color: white;
+  font-size: 1.5em;
+  width: 95%;
+  padding: 7.5px 11.25px;
+  border: 0;
+  margin: 9.75px;
+  cursor: pointer;
+  position: relative; left:0%;
+  body{width:100%;height:100%;}
+}

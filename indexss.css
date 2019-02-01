@@ -1,0 +1,214 @@
+a:link {
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+	a:hover {
+		background-color:#2699FB;
+		color:FFFFFF;
+		text-decoration:none;
+		font-weight:bold;
+		}
+		a: visited {text-decoration:none; }
+		body{font-size:100%;}
+img {
+	position:relative;left: 25%;
+	margin:auto;
+	padding:0;
+	border:0;
+	width: 50%;
+	height: 30%;
+	} 
+h1 {
+	background-image:url(companylogoBG.jpg); max-width: 50%; height: auto; background-size: 100%; 
+	margin:auto;
+	width: 50%;
+	height: 13%;
+	text-transform: uppercase;
+	text-align: center;
+	align-content: center;
+	}
+h2 {
+	color:#FFFFFF;
+	font-family:Arial, Times New Roman, serif;
+	font-size:35pt;
+	text-transform: uppercase;
+	text-align:center;
+	align-content: center;
+	background-color:#2699FB;
+	padding:0;
+	border:auto;
+	margin:auto;
+	width: 50%;
+	height:15%;
+	}
+h3 {
+	color:#FFFFFF;
+	font-family:Arial, Times New Roman, serif;
+	font-size:35pt;
+	text-transform: uppercase;
+	text-align:center;
+	background-color:#2699FB;
+	padding:0;
+	border:auto;
+	margin:auto;
+	width: 50%;
+	height:15%;
+	}
+h4 {color:#FFFFFF;font-family:Arial, Times New Roman, serif;
+font-size:35pt;
+text-transform: uppercase;
+text-align:center;
+background-color:#2699FB;
+padding:0;
+border:auto;
+margin:auto;
+width: 50%; 
+height:15%;
+}
+h5 {
+	color:#FFFFFF;
+	font-family:Arial, Times New Roman, serif;
+	font-size:35pt;
+	text-transform: uppercase;
+	text-align:center;
+	background-color:#2699FB;
+	padding:0;
+	border:auto;
+	margin:auto;
+	width: 50%;
+	height:15%;
+	}
+	p { padding-bottom:2;
+	border:auto;
+	margin:auto;
+	}	
+.header a{
+	color:#FFFFFF;
+	font-family: Berlin Sans FB, Times New Roman, serif; 
+	font-size:30pt;
+	text-decoration:none ;
+	position:relative; top: 25%; bottom: 0px;
+	}
+.nav-bar { text-align:center;text-transform: uppercase;
+ background-color:#AAAAAA;
+ padding:0;
+ border-width:0,5;
+ border-style: solid;
+ border-color:#FFFFFF;
+ margin:auto;
+ width: 50%;
+ height:3,5%;
+ }
+.nav-bar a{
+	color:#FFFFFF;
+	font-family:Arial, Times New Roman, serif;
+	font-size:15pt;
+	text-transform: uppercase;
+	text-align:center;
+	margin:20px;
+	width: 50%;
+	}
+	 label{margin:0 40px 0 0; font-size:26px; line-height:70px; display:none; width:26px; background-color:#AAAAAA;border: 1px solid #FFFFFF;}
+ #toggle {display:none;background-color:#AAAAAA;}
+footer {font-family:Arial, Times New Roman, serif;
+position:relative;
+color:#FFFFFF;
+text-align:center;
+background-color:#000000;
+margin:auto;
+ width:50%;
+ }
+.MyVideo {
+	position: fixed; 
+ right: 0;
+ bottom: 0;
+ z-index: -1000;
+ height:100%;
+ max-width:100%;
+ }
+
+@media (max-width:959px)
+ {
+	 h1 {
+	background-image:url(companylogoBG.jpg); max-width: 100%; height: auto; background-size: 100%; 
+	margin:auto;
+	width: 100%;
+	height: 13%;
+	text-transform: uppercase;
+	text-align: center;
+	align-content: center;
+	}
+	.header a{color:#FFFFFF; font-family: Berlin Sans FB, Times New Roman, serif;  font-size:35pt; text-decoration:none ; position:relative; top: 25%; bottom: 0px;}
+.nav-bar { text-align:center;text-transform: uppercase;
+ background-color:#AAAAAA;
+ padding:0;
+ border-width:0,5;
+ border-style: solid;
+ border-color:#FFFFFF;
+ margin:auto;
+ width: 100%;
+ height:3,5%;
+ }
+.nav-bar a{color:#FFFFFF; font-family:Arial, Times New Roman, serif; font-size:15pt; text-align:center; margin:20px; width: 100%;}
+ label{margin:0 40px 0 0; font-size:26px; line-height:70px; display:none; width:26px;}
+ #toggle {display:none;}
+	p {padding-bottom:2; border:auto; margin:auto;}
+	.supermario
+	{float: left; width: 49%; height: 25%; padding:0; border: 3px solid #FFFFFF; position: relative; left:0%;}
+	.smartphone
+	{float: rigth; width: 49%; height: 25%; padding:0; border: 3px solid #FFFFFF;position: relative; left: 0%;}
+	.checkerpieces{display:none;}
+	h2 {
+	color:#FFFFFF;
+	text-transform: uppercase;
+	font-family:Arial, Times New Roman, serif;
+	font-size:35pt;
+	text-align:center;
+	align-content: center;
+	background-color:#2699FB;
+	padding:0;
+	border:auto;
+	margin:auto;
+	width: 100%;
+	height:15%;
+	}
+	h3 {display:none;}
+	h4{ display:none;}
+	h5 {text-transform: uppercase; font-size:35pt; width: 100%; height:15%; }
+	
+		
+	.controller
+	{width: 100%;height: 25%; float: bottom; position: relative; left:0%;}
+	footer {font-family:Arial, Times New Roman, serif; position:relative; color:#FFFFFF; text-align:center; 
+	background-color:#000000;
+	margin:auto;
+	width:100%;}
+	
+ #MyVideo{ display:none;}
+ }
+ 
+@media (max-width:359px)
+ {
+	 body{font-size:100%;}
+	 h1 {font-size:140.0%; font-style:bold;}
+	.header a{font-size:150.0%;} 
+	h2 {height:10%; text-align:center; align-content: center; font-size:25pt;}
+	.nav-bar{display:none;}
+	img{display:block;}
+	.supermario{width:98%; height:18%; border: 3px solid #FFFFFF;}
+	.smartphone{width:98%; height:18%; border: 3 px solid #FFFFFF;}
+	.checkerpieces{width:98%; height:18%; border: 3 px solid #FFFFFF;}
+	.controller{width:98%; height:18%; border: 3 px solid #FFFFFF;}
+	h3{display:none;}
+	h4{display:none;}
+	h5{display:none;}
+		label {display: block; cursor: pointer;}
+	.menu{text-align: center; width:100%; background-color:#AAAAAA;}
+	.menu a {display:block; border-bottom: 1px solid #EAEAEB; margin:0;}
+	#toggle.checked + .menu {display:block;background-color:#AAAAAA;}
+ #MyVideo{display:none;}
+ }
+ 
+ 
+/* #MyVideo { position: fixed; right:0; bottom:0; min-width:100%; min-height:100%;} */
+/* body {background-image:url(background.jpeg);background-repeat: no-repeat; } */
